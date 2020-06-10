@@ -1,4 +1,4 @@
-# hoshinokoto02.github.io
+# hoshinokoto2.github.io
 
 This is my second project making html games using Phaser 3.
 
