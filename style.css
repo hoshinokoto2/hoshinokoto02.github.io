@@ -1,0 +1,14 @@
+body {
+    background-color: darkgray;
+}
+
+.background {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+
+.game {
+    margin: auto;
+}
