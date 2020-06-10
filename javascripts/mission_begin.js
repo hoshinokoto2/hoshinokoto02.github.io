@@ -106,7 +106,7 @@ class NausicaaBegin extends MissionBegin {
         super('NausicaaBegin');
         this.nextMission = 'Nausicaa';
         this.instructorKey = 'instruction/instruction_nausicaa.png';
-        this.instructorScale = 0.6;
+        this.instructorScale = 0.5;
         this.speech01 = 'Hey,  it  looks  like  Howl\'s  castle  is  having  some  trouble  with  the  bugs.\n\nLet\'s  help  them  out!';
         this.speech02 = 'DRAG  THE  AIRCRAFT  to  herd  the  bugs  back  to  the  forest.\n\nDon\'t  let  them  get  near  the  castle!';
     }
