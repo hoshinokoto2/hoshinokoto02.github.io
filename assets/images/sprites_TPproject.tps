@@ -1550,16 +1550,72 @@
                 <false/>
             </struct>
             <key type="filename">sprites/mononoke/mononoke_boar_01.png</key>
+            <key type="filename">sprites/mononoke/mononoke_boar_04.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.728324,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9Paddings</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/mononoke/mononoke_boar_02.png</key>
             <key type="filename">sprites/mononoke/mononoke_boar_03.png</key>
-            <key type="filename">sprites/mononoke/mononoke_boar_04.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.716763,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9Paddings</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/mononoke/mononoke_boar_05.png</key>
             <key type="filename">sprites/mononoke/mononoke_boar_06.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.653179,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9Paddings</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/mononoke/mononoke_boar_07.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.745665,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9Paddings</key>
+                <rect>43,26,87,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/mononoke/mononoke_boar_08.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.739884,1</point_f>
                 <key>spriteScale</key>
                 <double>1</double>
                 <key>scale9Enabled</key>
@@ -2110,7 +2166,7 @@
             <key type="filename">sprites/totoro/totoro_net.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.234875,0.224967</point_f>
                 <key>spriteScale</key>
                 <double>1</double>
                 <key>scale9Enabled</key>
