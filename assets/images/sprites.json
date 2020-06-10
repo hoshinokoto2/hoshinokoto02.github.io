@@ -1838,8 +1838,8 @@
 						"h": 769
 					},
 					"anchor": {
-						"x": 0.5,
-						"y": 0.5
+						"x": 0.23487544483985764,
+						"y": 0.22496749024707413
 					}
 				},
 				{
@@ -4395,6 +4395,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:71e63f0aeb6274e2980dc9b840a0751b:5cc0004f14d81f1ff1979bc6b1669f18:0db3cc4dc344bad44a5f4164f8128bac$"
+		"smartupdate": "$TexturePacker:SmartUpdate:1675e5aada7cceacabc4e1e767d20f71:5cc0004f14d81f1ff1979bc6b1669f18:0db3cc4dc344bad44a5f4164f8128bac$"
 	}
 }

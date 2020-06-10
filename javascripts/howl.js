@@ -355,7 +355,7 @@ class Howl extends Phaser.Scene {
                 
                 // Randomly choose stuff at current place
                 let i = Math.floor(Math.random() * ranList.length);
-                const stuff = this.add.sprite(xCor, yCor, 'sprites', ranList[i]['filename']).setScale(ranList[i]['scale']).setAngle(ranList[i]['angle']).setOrigin(0.5,0.5);
+                const stuff = this.add.sprite(xCor, yCor, 'sprites', ranList[i]['filename']).setScale(ranList[i]['scale']).setAngle(ranList[i]['angle']);
                 const correctStuff = ranList[i]['correctStuff'];
                 const correctArea = ranList[i]['correctArea'];
                 

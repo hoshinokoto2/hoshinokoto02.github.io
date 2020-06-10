@@ -192,7 +192,7 @@ class Totoro extends Phaser.Scene {
                 // Create net
                 const netX = this.input.mousePointer.x;
                 const netY = this.input.mousePointer.y;
-                const net = this.add.sprite(netX, netY, 'sprites', 'totoro/totoro_net.png').setOrigin(0.3,0.3).setScale(.2);
+                const net = this.add.sprite(netX, netY, 'sprites', 'totoro/totoro_net.png').setScale(.2);
                 net.angle = -30;
                 this.input.on('pointermove', pointer => {
                     net.x = pointer.x;

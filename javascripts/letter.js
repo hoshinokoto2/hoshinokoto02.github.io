@@ -33,8 +33,8 @@ class Letter extends Phaser.Scene {
                         'Thank  you  for  cleaning  up  the  house  so  that  we  could  live  comfortably.\n\n' +
                         'Thank  you  for  making  delicious  meals  and  let  us  grow  up  healthily  and  happily.\n\n'+
                         '\n\n' +
-                        'Of  course  there  are  much  more  things  that  we  should  thank  you  for,\n\n' +
-                        'it\'s  my  bad  that  I  couldn\'t  make  them  all  into  the  game  >"<\n\n' + 
+                        'Of  course  there  are  much  more  things  that  we  should  thank  you  for.\n\n' +
+                        'It\'s  my  bad  that  I  couldn\'t  make  them  all  into  the  game  >"<\n\n' + 
                         'However,  I\'ve  tried  my  best  to  create  the  game  with  characters  from  Ghibli  Studio,\n\n' +
                         'which  I  know  you  like  very  much  ^ ^\n\n' +
                         'Really  hope  you  would  love  this  special  gift  >///< \n\n' +
