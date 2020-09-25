@@ -414,21 +414,16 @@ class Mononoke extends Phaser.Scene {
             gameState.meatBest = gameState.meat;
         }
 
-        // Player felling
+        // Player fail and change to fail scene
+        this.cameras.main.fade(800, 0);
         this.tweens.add({
             targets: gameState.mono,
             x: '-=300',
             y: '+=100',
             angle: '-=150',
             ease: 'Exponential',
-            duration: 800
-        });
-        
-        // Change to fail scene
-        this.cameras.main.fade(800, 0);        
-        this.time.addEvent({
-            delay: 800,
-            callback: () => {
+            duration: 800,
+            onComplete: () => {
                 this.scene.stop('Mononoke');
                 this.scene.start('MononokeFail');
             }
