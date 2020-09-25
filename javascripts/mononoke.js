@@ -109,8 +109,16 @@ class Mononoke extends Phaser.Scene {
         this.cameras.main.startFollow(gameState.mono, true, 0.5, 0.5, -250);
         
         // Player jump
-        this.input.on('pointerup', () => {
-            if (gameState.mono.body.touching.down && gameState.active) {
+        // * Couldn't fix the bug of using gameState.mono.body.touching.down to control when player could jump
+        // * Instead, define the area where player could jump
+        this.input.on('pointerdown', () => {
+            let positionX = gameState.mono.body.x;
+            let positionY = gameState.mono.body.y;
+            if ((positionX < 3200 || (positionX > 3776 && positionX < 8512) || (positionX > 10624 && positionX < 16000) || positionX > 16576)
+                && positionY > 370 && gameState.active) {
+                this.sound.play('monoJump', { volume: 10 });
+                gameState.mono.setVelocityY(-650);
+            } else if ((positionX > 8896 && positionX < 10304) && positionY > 305 && gameState.active) {
                 this.sound.play('monoJump', { volume: 10 });
                 gameState.mono.setVelocityY(-650);
             }

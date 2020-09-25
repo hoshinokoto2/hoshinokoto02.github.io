@@ -96,7 +96,7 @@ class MononokeBegin extends MissionBegin {
         this.instructorKey = 'instruction/instruction_mononoke.png';
         this.instructorScale = 0.5;
         this.speech01 = 'Seems  like  we\'re  running  out  of  food.  Let\'s  go  hunt  for  some  more!';
-        this.speech02 = 'Remember  to  watch  out  for  the  wild  boars  and  obstacles!\n\nCLICK  TWICE  to  jump  over  them.';
+        this.speech02 = 'Remember  to  watch  out  for  the  wild  boars  and  obstacles!\n\nJust  CLICK  to  jump  over  them.';
     }
 }
 
