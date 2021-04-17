@@ -9,4 +9,4 @@ If you happened to have played this game, I hope you enjoy it!! :)
 Here's the link to the game: https://hoshinokoto2.github.io/
 
 
-** Disclaimer: Please be advised that all the images and sounds in this repo are for practice and personal use only. I do not own any of these images or audios.**
+** Disclaimer: Please be advised that all the images and sounds in this repository are for practice and personal use only. I do not own any of these images or audios.**
