@@ -1,4 +1,4 @@
-# hoshinokoto2.github.io
+# HTML5 Game: GHIBLI ISLAND ADVENTURES
 
 This is my second project making html games using Phaser 3.
 
