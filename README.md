@@ -1,4 +1,4 @@
-# HTML5 Game: Ghibli Island Adventures
+# HTML5 Game "Ghibli Island Adventures"
 
 This is my second project making html games using Phaser 3.
 
